@@ -1,0 +1,14 @@
+# Print function problem in the same line
+
+if __name__ == '__main__':
+    n = int(input())
+    
+for i in range (n-n+1,n+1):
+    print(i,end = "")
+
+# Method 2
+
+if __name__ == '__main__':
+    n = int(input())
+    for i in range(n):
+        print(i+1,end="")
